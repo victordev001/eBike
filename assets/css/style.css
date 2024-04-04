@@ -1,0 +1,136 @@
+:root{
+    --cor1:#243034;
+    --cor2:#0496AC;
+    --cor3:#b8b8b8;
+}
+
+::selection{
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 18rem;
+    font-family: "Poppins", sans-serif;
+}
+
+header img{
+    height: 40px;
+    margin-top: -12px;
+}
+
+header ul{
+    display: flex;
+    gap: 15px;
+
+}
+
+header a{
+    color:var(--cor3);
+    transition: all .3s ease-in-out;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+header a:hover{
+   
+    background-color:var(--cor2);
+    color: var(--cor1);
+    border-radius: 12px;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+main{
+    display: flex;
+}
+
+.sec1 div{
+    display: flex;
+    gap: 50px;
+    color: var(--cor3);
+    background-color: #21576983;
+    width: 40rem;
+    height: 60px;
+    padding: 0 80px;
+    border-radius: 90px;
+    position: absolute;
+    left: 6rem;
+    top: 89%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+dt{
+    font-size: 26px;
+}
+
+.dd{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 180px;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 500;
+    line-height: 0.9; 
+    color: var(--cor3);
+    margin-left: -15px;
+
+}
+
+span{
+    color: var(--cor2);
+    font-size: 40px;
+    margin-left: 9px;
+}
+
+.sec2 p{
+    color: var(--cor3);
+    font-family: "Montserrat", sans-serif;
+}
+
+button{
+    background-color: var(--cor2);
+    border: solid 1px var(--cor2);
+    font-size: 20px;
+    color: var(--cor3);
+    padding: 15px 100px;
+    height: 50px;
+    width: 460px;
+    margin: 20px 0;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+}
+
+button:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+   background-color: #2e4349;
+   border: solid 1px black;
+}
+
+.sec2 ul{
+   display: flex;
+   gap: 60px;
+   margin: 0 60px;
+}
+
+.sec2 ul :nth-child(2),.sec2 ul :nth-child(4){
+    margin-top: -5px;
+}
+
+.sec2 img{
+    transition: all .2s ease-in-out;
+}
+
+.sec2 img:hover{
+    transform: translateY(-5px);
+}
+
+   
+
+
